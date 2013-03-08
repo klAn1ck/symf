@@ -21,7 +21,7 @@ use Monolog\Logger;
  * Adds the DebugHandler when the profiler is enabled.
  *
  * @author Christophe Coevoet <stof@notk.org>
- */
+ *///
 class DebugHandlerPass implements CompilerPassInterface
 {
     private $channelPass;
